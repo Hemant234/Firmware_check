@@ -1,4 +1,7 @@
 node(''){
+     stage('git'){
+          scm checkout
+     }
      dir('C:/Users/SESA528099/Desktop/Binaries'){
     stage('upload firmware'){
     // I have to give the location of shared or copy directory
