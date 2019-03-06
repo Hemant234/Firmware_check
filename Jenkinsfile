@@ -12,15 +12,18 @@ node(''){
    }
    try{
    bat '''
-   python Fimrware_check.py
+    python fimrware_upgrade.py
    '''
    }
    catch(err){
    }          
     }
+    stage(' Wait Time'){
+         sleep 300
+    }
     stage('check for firmware update'){
     bat '''
-    python fimrware_upgrade.py
+      python Fimrware_check.py 
     '''
     }
 }
