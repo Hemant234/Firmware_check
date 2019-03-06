@@ -10,9 +10,13 @@ node(''){
    }
    catch(err){
    }
+   try{
    bat '''
    python Fimrware_check.py
    '''
+   }
+   catch(err){
+   }          
     }
     stage('check for firmware update'){
     bat '''
