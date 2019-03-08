@@ -19,7 +19,7 @@ node(''){
    }          
     }
     stage(' Wait Time'){
-         sleep 300
+         sleep 120
     }
     stage('check for firmware update'){
     bat '''
