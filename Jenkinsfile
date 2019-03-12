@@ -1,6 +1,8 @@
 node(''){
      stage('git'){
+          dir('C:/Users/SESA528099/Desktop/Binaries@tmp'){
          checkout scm
+          }
      }
      dir('C:/Users/SESA528099/Desktop/Binaries'){
     stage('upload firmware'){
