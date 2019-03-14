@@ -26,5 +26,6 @@ node(''){
       python Fimrware_check.py 
     '''
     }
+    ////// fsgjsgj;kg;fsgfg
 }
 }
