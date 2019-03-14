@@ -9,3 +9,4 @@ node(){
   bat'Fimrware_check.py'
   }
   }
+}
