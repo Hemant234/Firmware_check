@@ -12,7 +12,8 @@ node(''){
    }
    try{
    bat '''
-    python fimrware_upgrade.py
+   //python fimrware_upgrade.py
+   echo "hello"
    '''
    }
    catch(err){
